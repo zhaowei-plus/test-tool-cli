@@ -1,0 +1,67 @@
+{
+  "_from": "test-tool-cli",
+  "_id": "test-tool-cli@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-lZbSz6sGcz0NMcOPoq7rvVbnmyAlrqVlW9YNWlk3+zn38ZahVpe0MPtX5WCQlmk2IV/9x/wlhpGTI3V4zqrXzw==",
+  "_location": "/test-tool-cli",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "test-tool-cli",
+    "name": "test-tool-cli",
+    "escapedName": "test-tool-cli",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/test-tool-cli/-/test-tool-cli-0.0.1.tgz",
+  "_shasum": "2bfff45bbf3eedaeb9bad38d551124e797ea0ba4",
+  "_spec": "test-tool-cli",
+  "_where": "/usr/local/lib",
+  "bin": {
+    "test-tool": "bin/test-tool",
+    "test-tool-init": "bin/test-tool-init"
+  },
+  "bugs": {
+    "url": "https://github.com/Yage-h/test-cli/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": "^2.6.0",
+    "chalk": "^2.3.0",
+    "commander": "^2.13.0",
+    "consolidate": "^0.15.0",
+    "download": "^6.2.5",
+    "download-git-repo": "^1.0.2",
+    "ejs": "^2.5.7",
+    "git-clone": "^0.1.0",
+    "inquirer": "^5.0.1",
+    "metalsmith": "^2.3.0",
+    "multimatch": "^2.1.0",
+    "ora": "^1.4.0",
+    "read-metadata": "^1.0.0",
+    "semver": "^5.5.0",
+    "user-home": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "test-tool-cli",
+  "engines": {
+    "node": ">=8"
+  },
+  "homepage": "https://github.com/Yage-h/test-cli#readme",
+  "license": "ISC",
+  "name": "test-tool-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Yage-h/test-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}
